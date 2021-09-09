@@ -1,0 +1,63 @@
+/* Color Pallete
+
+
+#7DDE92 Light Green
+#2EBFA5 Blue-Green
+#B2ABF2 Blue-Purple
+#1b3d2a Dark Green
+#4E4187 Dark Blue
+
+*/
+
+
+
+
+/* Global Styles */
+
+a { 
+    color: #7DDE92;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:none;
+}
+
+img {
+    width: 300px;
+}
+
+/* Intro */
+
+header {
+    background: #B2ABF2;
+    color: #1b3d2a;
+}
+
+
+/* Projects / will want to add more to design-header*/
+
+.design-header {
+    color:#1b3d2a;
+}
+.design-section {
+    color:#1b3d2a;
+}
+
+
+/* Education */
+
+.education {
+    background: #4E4187;
+    color: #fff;
+}
+
+
+/* Contact Info */
+
+footer {
+    background: #1b3d2a;
+    color: #fff;
+}
