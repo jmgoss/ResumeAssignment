@@ -1,0 +1,110 @@
+/* Color Pallete
+#7DDE92 Light Green
+#2EBFA5 Blue-Green
+#B2ABF2 Blue-Purple
+#1b3d2a Dark Green
+#4E4187 Dark Blue
+*/
+
+
+
+
+/* Global Styles */
+
+html {
+
+    box-sizing:border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a { 
+    color: #1b3d2a;
+    background: #7DDE92;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+}
+a:hover {
+    text-decoration:none;
+    background: rgba(125, 222, 146, 80%);
+}
+
+img {
+    width: 300px;
+}
+
+h1{
+    font-family: 'Coiny', cursive;
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 0 0 5px #7DDE92;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1,h2 {
+    margin: 0;
+
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+
+/* Intro */
+
+header {
+    background: #B2ABF2;
+    color: #1b3d2a;
+}
+
+
+/* Projects / will want to add more to design-header*/
+
+.design-header {
+    color:#1b3d2a;
+}
+.design-section {
+    color:#1b3d2a;
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dotted #1b3d2a;
+    padding: 25px 0px;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
+}
+
+/* Education */
+
+.education {
+    background: #4E4187;
+    color: #fff;
+}
+
+
+/* Contact Info */
+
+footer {
+    background: #1b3d2a;
+    color: #fff;
+}
